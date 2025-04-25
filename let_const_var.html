@@ -1,0 +1,77 @@
+<body>
+    <script>
+        document.write("LET - reassign can be done , block scope ");
+        document.writeln("-");
+        document.writeln("|");
+        let a=5;
+        document.write(a);
+        document.writeln("|");
+        a="syed";
+        document.write(a);
+        document.writeln("|");
+        a=true;
+        document.write(a);
+        document.writeln("|");
+        a=10/0;
+        document.write(a);
+        document.writeln("|");
+        a=0/10;
+        document.write(a);
+        document.write("|");
+        let b=20;
+        let c=30;
+        let d=b+c;
+        document.write(d)
+        document.write("|");
+         b="syed";
+         c=30;
+         d=b+c;
+        document.write(d)
+        document.write("|");
+         b=20;
+         c=true;
+         d=b+c;
+        document.write(d)
+        document.write("|");
+         b="syed";
+         c=20;
+         d=b+c;
+        document.write(d)
+        document.write("|");
+
+        b="syed";
+         c=true;
+         d=b+c;
+        document.write(d)
+        document.write("|");
+        document.write("--------------------");
+        document.writeln("CONST cannot be reassigned , block scope");
+        
+        document.writeln("---|");
+
+        const g=10;
+        document.writeln(g);
+        document.writeln("|");
+        
+
+
+        document.write("--------------------------------------------");
+
+        document.writeln("VAR can be reassigned , functional scope");
+        
+        document.writeln("---|");
+
+        var v=10;
+        document.writeln(v);
+        document.writeln("|");
+        v=20;
+        document.writeln(v);
+        document.writeln("|");
+
+
+
+
+        
+
+    </script>
+</body>

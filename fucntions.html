@@ -1,0 +1,71 @@
+<body>
+    <script>
+        function greet(){
+            document.write("HELLO");
+        }
+        function greetwithparam(name) {
+            document.write("HELLO"+name);
+        }
+        function greetwithparamreturn(name) {
+            return "HELLO"+name;
+        }
+        function greetwithoutparamreturn() {
+            return "lets see add sub mul div";
+        }
+       
+         
+         greet();
+         document.write("<br/>");
+         greetwithparam("syed");
+         document.write("<br/>");
+         let a=greetwithparamreturn("ahamed");
+         document.write(a);
+         document.write("<br/>");
+         document.write("<br/>");
+         document.write("<br/>");
+         document.write("<br/>");
+         document.write("<br/>");
+         let b = greetwithoutparamreturn();
+         document.write(b);
+         document.write("<br/>");
+
+
+         function add(q,w){
+            return q+w;
+         }
+
+
+         const s = function sub(q,w){
+            return q-w;
+         }
+
+
+         const ar=(q,w) => {
+            return q*w;
+         }
+          
+         const aro = (q,w) => q/w;
+
+         document.write(add(5,6));
+         document.write("<br/>");
+         document.write(s(10,6));
+         document.write("<br/>");
+         document.write(ar(5,6));
+         document.write("<br/>");
+         document.write(aro(5,25));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
